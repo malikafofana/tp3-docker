@@ -15,3 +15,7 @@ d17dc499e86d
 e541d146368c
 
 2.docker container rm -f $(docker container ls -aq)
+
+3.git init
+resultat= Initialized empty Git repository in /Users/malikafofana/Desktop/Université/PGE3/MLOps/cours1 devops-mlops-docker/tp3/docker-tp3/.git/
+
