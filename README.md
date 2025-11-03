@@ -10,9 +10,7 @@ Mettre en place une architecture web avec Nginx + PHP-FPM + MariaDB en suivant 3
 - Serveur accessible sur : http://localhost:8080
 - `index.php` affiche `phpinfo()`
 
-
-
-Étape 2 — Ajout MariaDB + CRUD
+ Étape 2 — Ajout MariaDB + CRUD
 - 3 containers : `http`, `script`, `data`
 - Initialisation via `/docker-entrypoint-initdb.d/create.sql`
 - Ext. `mysqli` installée via Dockerfile
