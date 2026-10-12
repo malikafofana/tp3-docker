@@ -43,10 +43,10 @@ Ouvrir [la page PHP](http://localhost:8080) puis [le compteur](http://localhost:
 
 ## Vérifications
 
-- La page d’accueil expose `phpinfo()`.
-- Chaque visite de `test.php` insère une valeur de compteur et affiche son maximum.
-- Les fichiers de [db-init](etape3/db-init) servent à initialiser MariaDB lors de la création de sa base.
-- Le volume nommé conserve les données après l’arrêt des services.
+* La page d’accueil expose `phpinfo()`.
+* Chaque visite de `test.php` insère une valeur de compteur et affiche son maximum.
+* Les fichiers de [db-init](etape3/db-init) servent à initialiser MariaDB lors de la création de sa base.
+* Le volume nommé conserve les données après l’arrêt des services.
 
 ```bash
 docker compose logs --tail=50
